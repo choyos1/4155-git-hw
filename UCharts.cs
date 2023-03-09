@@ -40,7 +40,7 @@ public class UCharts : MonoBehaviour
         //初始化.
         m_Transform = gameObject.GetComponent<RectTransform>();
         pieChartList = new List<Transform>();
-        class_Other = 1.0f - class_A - class_B;
+      
 
         //根据份数，生成饼状图.
         GeneratePieChart();
